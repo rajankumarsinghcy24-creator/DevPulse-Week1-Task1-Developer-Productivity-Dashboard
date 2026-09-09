@@ -7,17 +7,16 @@
 ## 📸 Application Preview
 
 ### Dashboard Overview
-![DevPulse Dashboard](./screenshots/dashboard.png)
+![DevPulse Dashboard](docs/screenshots/dashboard.png)
 
-### Projects & Task Management
-| **Engineering Projects View** | **Task Management Board** |
-| :---: | :---: |
-| ![DevPulse Projects](./screenshots/projects.png) | ![DevPulse Tasks](./screenshots/tasks.png) |
+### Engineering Projects Management
+![DevPulse Projects](docs/screenshots/projects.png)
 
-### Responsive Mobile Experience
-<div align="center">
-  <img src="./screenshots/mobile.png" alt="DevPulse Mobile Layout" width="360" />
-</div>
+### Task Management Board
+![DevPulse Tasks](docs/screenshots/tasks.png)
+
+### Responsive Mobile Layout
+![DevPulse Mobile Layout](docs/screenshots/mobile.png)
 
 ---
 
@@ -76,11 +75,12 @@ The dashboard includes dedicated interactive controls in the header navigation f
 
 ```
 InnovationHack/
-├── screenshots/
-│   ├── dashboard.png         # Screenshot: Main Dashboard Overview
-│   ├── projects.png          # Screenshot: Engineering Projects Catalog
-│   ├── tasks.png             # Screenshot: Task Management Board
-│   └── mobile.png            # Screenshot: Responsive Mobile View
+├── docs/
+│   └── screenshots/
+│       ├── dashboard.png         # Screenshot: Main Dashboard Overview
+│       ├── projects.png          # Screenshot: Engineering Projects Catalog
+│       ├── tasks.png             # Screenshot: Task Management Board
+│       └── mobile.png            # Screenshot: Responsive Mobile View
 ├── src/
 │   ├── components/
 │   │   ├── common/
